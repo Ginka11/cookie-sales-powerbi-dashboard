@@ -1,151 +1,102 @@
-# 🍪 Cookie Sales Analytics Dashboard | Power BI
+# Cookie Sales Analytics Dashboard | Power BI
 
-## Overview
+A Power BI portfolio practice project built from supplied sample Excel workbooks. The report combines sales, customers, products, inventory, and feedback into desktop and mobile views for business users.
 
-This project demonstrates the creation of an interactive business intelligence solution using **Microsoft Power BI**. The dashboard analyzes cookie sales performance by combining multiple Excel datasets into a relational data model and presenting insights through interactive visualizations.
+> The workbooks contain clearly synthetic records, including `example.com` customer emails. All values below describe the sample dataset, not a real company.
 
----
+## Project Scope
 
-## Project Objectives
+- Imported and transformed three Excel workbooks with Power Query.
+- Created relationships between orders, customers, products, inventory, and feedback.
+- Built three report pages: Cookie Bills Sales Dashboard, Sales Report, and Management Report.
+- Added KPI cards, filters, drill-down, cross-filtering, and page navigation.
+- Created separate desktop and mobile layouts.
 
-* Analyze company sales performance
-* Monitor revenue, cost, and order trends
-* Explore customer information
-* Create executive-friendly dashboards
-* Build reports optimized for both desktop and mobile devices
+## Verified Report Snapshot
 
----
+The committed screenshots visibly report:
 
-## Dataset
+- **6M** total revenue; the source report does not specify a currency.
+- **4.20** average customer rating.
+- A plotted daily quantity peak of **120** on September 8 in the sample period.
+- Coffee stock count of **4** compared with Pastry stock count of **1**.
+- Reorder count of **4** for Bean World and **1** for PastryPro.
 
-The project uses multiple Excel datasets containing:
+## Dashboard Evidence
 
-* Orders
-* Customers
-* Products
-* Inventory
-* Customer Feedback
+### Executive sales overview
 
-The datasets were imported into Power BI and connected using relationships to create a complete reporting model.
+![Cookie sales executive dashboard](screenshots/ninth.png)
 
----
+### Sales detail
 
-## Tools & Technologies
+![Cookie sales detail report](screenshots/eighth.png)
 
-* Microsoft Power BI Desktop
-* Microsoft Excel
-* Power Query
-* Data Modeling
-* Interactive Dashboards
+### Management and inventory view
 
----
+![Cookie sales management report](screenshots/seventh.png)
 
-## Power BI Features Implemented
+<details>
+<summary>Mobile-layout evidence</summary>
 
-### Data Preparation
+These screenshots document the mobile work completed in Power BI. The layout remains a prototype and would benefit from a further typography and spacing pass.
 
-* Imported multiple Excel datasets
-* Cleaned and transformed data using Power Query
-* Created relationships between tables
-* Organized the data model
+#### Dashboard
 
-### Dashboard Development
+![Cookie sales mobile dashboard top](screenshots/first.png)
 
-Three report pages were created:
+![Cookie sales mobile dashboard detail](screenshots/second.png)
 
-* 🍪 Cookie Bills Sales Dashboard
-* 📊 Sales Report
-* 📈 Management Report
+#### Sales report
 
-Each page contains interactive visuals designed for business users.
+![Cookie sales mobile report top](screenshots/third.png)
 
-### Visualizations
+![Cookie sales mobile report detail](screenshots/fourth.png)
 
-The report includes multiple visualization types such as:
+#### Management report
 
-* KPI Cards
-* Column Charts
-* Bar Charts
-* Line Charts
-* Pie/Donut Charts
-* Tables
-* Interactive Filters
-* Slicers
+![Cookie sales mobile management top](screenshots/fifth.png)
 
-### Interactivity
+![Cookie sales mobile management detail](screenshots/sixth.png)
 
-Implemented interactive reporting features including:
-
-* Cross-filtering
-* Cross-highlighting
-* Slicers
-* Drill-down functionality
-* Page navigation
-
-### Mobile Layout
-
-A dedicated **Power BI Mobile Layout** was designed to ensure dashboards remain readable and easy to navigate on smartphones.
-
-### Report Distribution
-
-The report was prepared for publishing to the **Power BI Service**, including:
-
-* Dashboard Pinning
-* Report Sharing
-* Subscribe Feature
-* Workspace Publishing
-
----
-
-## Skills Demonstrated
-
-* Data Visualization
-* Business Intelligence
-* Dashboard Design
-* Data Modeling
-* Power Query
-* Report Development
-* Mobile Report Optimization
-* Business Reporting
-* Interactive Analytics
-
----
+</details>
 
 ## Repository Structure
 
+```text
+Retail-Sales-Analytics-Dashboard/
+â”œâ”€â”€ Projecta.pbix
+â”œâ”€â”€ Datasets/
+â”‚   â”œâ”€â”€ data.xlsx
+â”‚   â”œâ”€â”€ practice.xlsx
+â”‚   â””â”€â”€ final.xlsx
+â”œâ”€â”€ screenshots/
+â”‚   â”œâ”€â”€ first.png
+â”‚   â”œâ”€â”€ second.png
+â”‚   â”œâ”€â”€ third.png
+â”‚   â”œâ”€â”€ fourth.png
+â”‚   â”œâ”€â”€ fifth.png
+â”‚   â”œâ”€â”€ sixth.png
+â”‚   â”œâ”€â”€ seventh.png
+â”‚   â”œâ”€â”€ eighth.png
+â”‚   â””â”€â”€ ninth.png
+â””â”€â”€ README.md
 ```
-Cookie-Sales-Dashboard/
-│
-├── Project.pbix
-├── data.xlsx
-├── practice.xlsx
-├── final.xlsx
-├── images/
-│   ├── dashboard.png
-│   ├── sales-report.png
-│   ├── management-report.png
-│   └── mobile-layout.png
-└── README.md
-```
 
----
+## Skills Demonstrated
 
-## Dashboard Preview
+- Power Query data preparation
+- Relational data modeling
+- KPI and dashboard design
+- Interactive filtering and drill-down
+- Desktop and mobile report development
+- Business reporting with Power BI
 
-* Cookie Bills Sales Dashboard
-* Sales Report
-* Management Report
-* Mobile Layout
+## Limitations and Next Improvements
 
----
+- Document the workbook provenance and usage rights.
+- Rename generic source files and the `.pbix` artifact by business purpose.
+- Define currency, reporting periods, and KPI formulas explicitly.
+- Add a model diagram, key Power Query steps, and representative DAX measures.
+- Refine mobile spacing and replace default `Sum of ...` visual titles.
 
-## Learning Outcomes
-
-Through this project, I learned how to:
-
-* Import and transform data in Power BI
-* Build a relational data model
-* Design professional business dashboards
-* Create interactive reports
-* Optimize reports for mobile devices
-* Prepare reports for sharing through the Power BI Service
