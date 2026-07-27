@@ -65,22 +65,22 @@ These screenshots document the mobile work completed in Power BI. The layout rem
 
 ```text
 cookie-sales-powerbi-dashboard/
-â”œâ”€â”€ Projecta.pbix
-â”œâ”€â”€ Datasets/
-â”‚   â”œâ”€â”€ data.xlsx
-â”‚   â”œâ”€â”€ practice.xlsx
-â”‚   â””â”€â”€ final.xlsx
-â”œâ”€â”€ screenshots/
-â”‚   â”œâ”€â”€ first.png
-â”‚   â”œâ”€â”€ second.png
-â”‚   â”œâ”€â”€ third.png
-â”‚   â”œâ”€â”€ fourth.png
-â”‚   â”œâ”€â”€ fifth.png
-â”‚   â”œâ”€â”€ sixth.png
-â”‚   â”œâ”€â”€ seventh.png
-â”‚   â”œâ”€â”€ eighth.png
-â”‚   â””â”€â”€ ninth.png
-â””â”€â”€ README.md
+Projecta.pbix
+Datasets/
+data.xlsx
+practice.xlsx
+final.xlsx
+screenshots/
+first.png
+second.png
+third.png
+fourth.png
+fifth.png
+sixth.png
+seventh.png
+eighth.png
+ninth.png
+README.md
 ```
 
 ## Skills Demonstrated
