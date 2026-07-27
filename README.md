@@ -64,7 +64,7 @@ These screenshots document the mobile work completed in Power BI. The layout rem
 ## Repository Structure
 
 ```text
-Retail-Sales-Analytics-Dashboard/
+cookie-sales-powerbi-dashboard/
 â”œâ”€â”€ Projecta.pbix
 â”œâ”€â”€ Datasets/
 â”‚   â”œâ”€â”€ data.xlsx
